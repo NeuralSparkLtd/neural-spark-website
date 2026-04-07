@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "kind": "nextjs",
+  "build": {
+    "mode": "dockerfile",
+    "context": ".",
+    "dockerfile": "Dockerfile"
+  },
+  "runtime": {
+    "healthcheckPath": "/healthz"
+  },
+  "secrets": []
+}
